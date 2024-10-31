@@ -17,8 +17,8 @@ public class Game
         final char ROCK = 'R';
         final char SCISSORS = 'S';
         final char PAPER = 'P';
-        final String PLAYER1WIN = "Player 1 wins.";
-        final String PLAYER2WIN = "Player 2 wins.";
+        final String PLAYER_1_WIN = "Player 1 wins.";
+        final String PLAYER_2_WIN = "Player 2 wins.";
         final String TIE = "Game ends with a tie.";
 
         Scanner scan = new Scanner (System.in);
@@ -34,21 +34,21 @@ public class Game
 
         if(player1 == ROCK){
             if (player2 == SCISSORS){
-                System.out.println(PLAYER1WIN);
+                System.out.println(PLAYER_1_WIN);
             } else if (player2 == PAPER) {
-                System.out.println(PLAYER2WIN);
+                System.out.println(PLAYER_2_WIN);
             }
         } else if (player1 == PAPER){
             if (player2 == SCISSORS){
-                System.out.println(PLAYER2WIN);
+                System.out.println(PLAYER_2_WIN);
             } else if (player2 == ROCK) {
-                System.out.println(PLAYER1WIN);
+                System.out.println(PLAYER_1_WIN);
             }
         } else if (player1 == SCISSORS){
             if (player2 == ROCK){
-                System.out.println(PLAYER2WIN);
+                System.out.println(PLAYER_2_WIN);
             } else if (player2 == PAPER) {
-                System.out.println(PLAYER1WIN);
+                System.out.println(PLAYER_1_WIN);
             }
         } //By now the result should have been printed, if the value provided is valid
 
