@@ -2,7 +2,7 @@
  * The Game class accepts values from two players and prints out who won the game
  *
  * @Owner Naftali Deutsch
- * @Version 1
+ * @version 1
  */
 import java.util.Scanner;
 
