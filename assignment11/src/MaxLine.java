@@ -1,6 +1,7 @@
 /**
  * The MaxLine class accepts the values of three points and prints the two points that are farthest apart
  *
+ * @Owner Naftali Deutsch
  * @version 1
  */
 
@@ -12,7 +13,7 @@ public class MaxLine {
     /**
      * accept three points (X, Y) from the user
      * calculate the distance between all three points (AB, BC, AC)
-     * print the two point with the largest distance
+     * print the two points with the largest distance
      * @param args unused
      */
     public static void main(String[] args) {

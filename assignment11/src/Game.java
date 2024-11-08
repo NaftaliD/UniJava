@@ -1,7 +1,8 @@
 /**
  * The Game class accepts values from two players and prints out who won the game
  *
- * @version 1
+ * @Owner Naftali Deutsch
+ * @Version 1
  */
 import java.util.Scanner;
 
@@ -30,6 +31,7 @@ public class Game
 
         if (player1 == player2){ //if the two values match, it's a tie.
             System.out.println(TIE);
+            return;
         }
 
         if(player1 == ROCK){
