@@ -1,7 +1,7 @@
 /**
  * The MaxLine class accepts the values of three points and prints the two points that are farthest apart
  *
- * @Owner Naftali Deutsch
+ * @owner Naftali Deutsch
  * @version 1
  */
 
